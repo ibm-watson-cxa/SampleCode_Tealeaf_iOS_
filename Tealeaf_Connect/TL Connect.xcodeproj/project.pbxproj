@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660556A81FD2100A0034103A /* EOCoreSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 660556A61FD2100A0034103A /* EOCoreSettings.bundle */; };
+		660556A91FD2100A0034103A /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 660556A71FD2100A0034103A /* TLFResources.bundle */; };
+		660556AC1FD210290034103A /* EOApplicationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 660556AB1FD210290034103A /* EOApplicationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660556B01FD211C00034103A /* libEOCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 660556A31FD20FE70034103A /* libEOCore.a */; };
+		660556B11FD211C30034103A /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660556AD1FD2104B0034103A /* Tealeaf.framework */; };
 		8401C23B1C9CA47400372D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401C23A1C9CA47400372D0B /* LaunchScreen.storyboard */; };
 		AE071F251892FDC90002B3A9 /* RequestSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE071F241892FDC90002B3A9 /* RequestSelectionViewController.m */; };
 		AE071F281895B1BC0002B3A9 /* ButtonFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE071F271895B1BC0002B3A9 /* ButtonFormCell.m */; };
@@ -56,10 +61,6 @@
 		AEFE9A38188063DA009D22B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEFE9A36188063DA009D22B8 /* InfoPlist.strings */; };
 		AEFE9A3A188063DA009D22B8 /* TL_ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE9A39188063DA009D22B8 /* TL_ConnectTests.m */; };
 		AEFE9A451880649B009D22B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE9A441880649B009D22B8 /* Main.storyboard */; };
-		F695EC2E1E42606600E484C0 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F695EC2C1E42606600E484C0 /* Tealeaf.framework */; };
-		F695EC2F1E42606600E484C0 /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F695EC2D1E42606600E484C0 /* TLFResources.bundle */; };
-		F695EC331E42608600E484C0 /* EOCoreSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F695EC311E42608600E484C0 /* EOCoreSettings.bundle */; };
-		F695EC341E42608600E484C0 /* libEOCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F695EC321E42608600E484C0 /* libEOCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660556A31FD20FE70034103A /* libEOCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEOCore.a; sourceTree = "<group>"; };
+		660556A61FD2100A0034103A /* EOCoreSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EOCoreSettings.bundle; sourceTree = "<group>"; };
+		660556A71FD2100A0034103A /* TLFResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TLFResources.bundle; sourceTree = "<group>"; };
+		660556AB1FD210290034103A /* EOApplicationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOApplicationHelper.h; sourceTree = "<group>"; };
+		660556AD1FD2104B0034103A /* Tealeaf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tealeaf.framework; sourceTree = "<group>"; };
 		8401C23A1C9CA47400372D0B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE071F231892FDC90002B3A9 /* RequestSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSelectionViewController.h; sourceTree = "<group>"; };
 		AE071F241892FDC90002B3A9 /* RequestSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSelectionViewController.m; sourceTree = "<group>"; };
@@ -147,10 +153,6 @@
 		AEFE9A37188063DA009D22B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEFE9A39188063DA009D22B8 /* TL_ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TL_ConnectTests.m; sourceTree = "<group>"; };
 		AEFE9A441880649B009D22B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F695EC2C1E42606600E484C0 /* Tealeaf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tealeaf.framework; path = ../../../Tealeaf/Debug/Tealeaf.framework; sourceTree = "<group>"; };
-		F695EC2D1E42606600E484C0 /* TLFResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TLFResources.bundle; path = ../../../Tealeaf/Debug/TLFResources.bundle; sourceTree = "<group>"; };
-		F695EC311E42608600E484C0 /* EOCoreSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = EOCoreSettings.bundle; path = ../../../EOCore/Debug/EOCoreSettings.bundle; sourceTree = "<group>"; };
-		F695EC321E42608600E484C0 /* libEOCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEOCore.a; path = ../../../EOCore/Debug/libEOCore.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660556B01FD211C00034103A /* libEOCore.a in Frameworks */,
+				660556B11FD211C30034103A /* Tealeaf.framework in Frameworks */,
 				AE71B2971C9C96C6004C73F2 /* WebKit.framework in Frameworks */,
 				AE6B1D381889EC94009EA5E1 /* SystemConfiguration.framework in Frameworks */,
 				AE6B1D361889EC89009EA5E1 /* MediaPlayer.framework in Frameworks */,
@@ -165,9 +169,7 @@
 				AE6B1D321889EC79009EA5E1 /* CoreTelephony.framework in Frameworks */,
 				AEDFFC1F1884CCCB00E87C41 /* MessageUI.framework in Frameworks */,
 				AE915C241880B64D00933414 /* CoreLocation.framework in Frameworks */,
-				F695EC2E1E42606600E484C0 /* Tealeaf.framework in Frameworks */,
 				AE915C251880B64D00933414 /* MapKit.framework in Frameworks */,
-				F695EC341E42608600E484C0 /* libEOCore.a in Frameworks */,
 				AEFE9A17188063DA009D22B8 /* CoreGraphics.framework in Frameworks */,
 				AEFE9A19188063DA009D22B8 /* UIKit.framework in Frameworks */,
 				AEFE9A15188063DA009D22B8 /* Foundation.framework in Frameworks */,
@@ -187,6 +189,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660556A11FD20F8B0034103A /* TealeafSDK */ = {
+			isa = PBXGroup;
+			children = (
+				660556A31FD20FE70034103A /* libEOCore.a */,
+				660556AD1FD2104B0034103A /* Tealeaf.framework */,
+				660556AB1FD210290034103A /* EOApplicationHelper.h */,
+				660556A61FD2100A0034103A /* EOCoreSettings.bundle */,
+				660556A71FD2100A0034103A /* TLFResources.bundle */,
+			);
+			path = TealeafSDK;
+			sourceTree = "<group>";
+		};
 		AE071F31189C5BA60002B3A9 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +316,7 @@
 		AEFE9A08188063DA009D22B8 = {
 			isa = PBXGroup;
 			children = (
+				660556A11FD20F8B0034103A /* TealeafSDK */,
 				AEDFFC201885B1C000E87C41 /* Images.xcassets */,
 				AEFE9A1A188063DA009D22B8 /* TL Connect */,
 				AEFE9A33188063DA009D22B8 /* TL ConnectTests */,
@@ -341,7 +356,6 @@
 		AEFE9A1A188063DA009D22B8 /* TL Connect */ = {
 			isa = PBXGroup;
 			children = (
-				F695EC301E42606C00E484C0 /* Tealeaf_SDK */,
 				AE6B1D041889CA36009EA5E1 /* Data */,
 				AE6B1CFD1887617B009EA5E1 /* Handlers */,
 				AE6B1CE61885E886009EA5E1 /* Models */,
@@ -396,27 +410,28 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		F695EC301E42606C00E484C0 /* Tealeaf_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				F695EC311E42608600E484C0 /* EOCoreSettings.bundle */,
-				F695EC321E42608600E484C0 /* libEOCore.a */,
-				F695EC2C1E42606600E484C0 /* Tealeaf.framework */,
-				F695EC2D1E42606600E484C0 /* TLFResources.bundle */,
-			);
-			name = Tealeaf_SDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		660556AA1FD210180034103A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660556AC1FD210290034103A /* EOApplicationHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AEFE9A10188063DA009D22B8 /* TL_Connect */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFE9A3D188063DA009D22B8 /* Build configuration list for PBXNativeTarget "TL_Connect" */;
 			buildPhases = (
+				AEFE9A0F188063DA009D22B8 /* Resources */,
 				AEFE9A0D188063DA009D22B8 /* Sources */,
 				AEFE9A0E188063DA009D22B8 /* Frameworks */,
-				AEFE9A0F188063DA009D22B8 /* Resources */,
+				660556AA1FD210180034103A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -451,7 +466,7 @@
 		AEFE9A09188063DA009D22B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = TeaLeaf;
 				TargetAttributes = {
 					AEFE9A10188063DA009D22B8 = {
@@ -490,6 +505,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660556A81FD2100A0034103A /* EOCoreSettings.bundle in Resources */,
+				660556A91FD2100A0034103A /* TLFResources.bundle in Resources */,
 				AE3206771889FFA200D2537E /* CX.txt in Resources */,
 				AE32067A1889FFA200D2537E /* cxReveal.txt in Resources */,
 				AEDFFC211885B1C000E87C41 /* Images.xcassets in Resources */,
@@ -499,9 +516,7 @@
 				AE3206791889FFA200D2537E /* cxImpact.txt in Resources */,
 				AEFE9A451880649B009D22B8 /* Main.storyboard in Resources */,
 				8401C23B1C9CA47400372D0B /* LaunchScreen.storyboard in Resources */,
-				F695EC2F1E42606600E484C0 /* TLFResources.bundle in Resources */,
 				AEFE9A1F188063DA009D22B8 /* InfoPlist.strings in Resources */,
-				F695EC331E42608600E484C0 /* EOCoreSettings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,24 +603,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -629,23 +655,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -668,9 +704,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					../../Tealeaf/Debug,
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
+					"$(PROJECT_DIR)/TealeafSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TL Connect/TL Connect-Prefix.pch";
@@ -678,15 +712,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../EOCore/Debug\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
+					"$(PROJECT_DIR)/TealeafSDK",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"$(FRANK_LDFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TL_Connect;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -703,9 +736,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					../../Tealeaf/Debug,
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
+					"$(PROJECT_DIR)/TealeafSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TL Connect/TL Connect-Prefix.pch";
@@ -713,11 +744,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../EOCore/Debug\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
-					"\"$(PROJECT_DIR)/TL Connect/Tealeaf_SDK\"",
+					"$(PROJECT_DIR)/TealeafSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TL_Connect;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -728,7 +758,6 @@
 		AEFE9A41188063DA009D22B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -743,6 +772,7 @@
 				);
 				INFOPLIST_FILE = "TL ConnectTests/TL ConnectTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TL_Connect.app/TL_Connect";
 				WRAPPER_EXTENSION = xctest;
@@ -752,7 +782,6 @@
 		AEFE9A42188063DA009D22B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -763,6 +792,7 @@
 				GCC_PREFIX_HEADER = "TL Connect/TL Connect-Prefix.pch";
 				INFOPLIST_FILE = "TL ConnectTests/TL ConnectTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TL_Connect.app/TL_Connect";
 				WRAPPER_EXTENSION = xctest;

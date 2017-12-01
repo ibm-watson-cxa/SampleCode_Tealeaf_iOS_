@@ -22,5 +22,4 @@
 	#import <Tealeaf/TLFApplicationHelper.h>
 	#import <Tealeaf/TLFCustomEvent.h>
 	#import <Tealeaf/TLFPublicDefinitions.h>
-
 #endif

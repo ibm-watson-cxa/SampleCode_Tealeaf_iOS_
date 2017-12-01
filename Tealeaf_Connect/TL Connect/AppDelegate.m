@@ -1,14 +1,14 @@
+/*******************************************************************************
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corp. 2017
+ * US Government Users Restricted Rights - Use, duplication or disclosure
+ * restricted by GSA ADP Schedule Contract with IBM Corp.
+ ******************************************************************************/
 //
 //  AppDelegate.m
 //  TL Connect
 //
 //  Created by Geoff Heeren on 1/10/14.
-/*******************************************************************************
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2016
- * US Government Users Restricted Rights - Use, duplication or disclosure
- * restricted by GSA ADP Schedule Contract with IBM Corp.
- ******************************************************************************/
 
 #import "AppDelegate.h"
 #import <AdSupport/ASIdentifierManager.h>
@@ -21,9 +21,12 @@
 //    setenv("TLF_DEBUG", "1", 1);
     [[TLFApplicationHelper sharedInstance] setCXAAdvertisingId:[[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]];
 	[[TLFApplicationHelper sharedInstance] enableTealeafFramework];
-	[[TLFCustomEvent sharedInstance] logEvent:@"Application" value:[[NSBundle mainBundle] bundleIdentifier] ];
-	[[TLFCustomEvent sharedInstance] logEvent:@"Device" value:[[UIDevice currentDevice] model] ];
-	[[TLFCustomEvent sharedInstance] logEvent:@"Name" value:[[UIDevice currentDevice] name] ];
+    NSMutableDictionary *appData = [[NSMutableDictionary alloc] init];
+    [appData setObject:[[NSBundle mainBundle] bundleIdentifier] forKey:@"Application"];
+    [appData setObject:[[UIDevice currentDevice] model] forKey:@"Device"];
+    [appData setObject:[[UIDevice currentDevice] name] forKey:@"Name"];
+	[[TLFCustomEvent sharedInstance] logEvent:@"ApplicationData" values:appData];
+    
 	NSString *sessionID=[[TLFApplicationHelper sharedInstance] currentSessionId];
 	NSLog(@"TLF Session Id: %@", sessionID);
 	NSLog(@"System Name:%@",[[UIDevice currentDevice] systemName]);

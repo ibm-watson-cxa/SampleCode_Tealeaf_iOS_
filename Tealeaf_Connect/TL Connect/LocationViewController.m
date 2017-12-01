@@ -147,7 +147,7 @@ rangingBeaconsDidFailForRegion:(CLBeaconRegion *)region
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus) status{
 
     NSLog(@"locationManager didChangeAuthorizationStatus: %@",[self getDescriptionFromStatus:status]);
-    if ([manager respondsToSelector:@selector(requestAlwaysAuthorization)] && (status== kCLAuthorizationStatusAuthorized || status== kCLAuthorizationStatusAuthorizedWhenInUse))
+    if ([manager respondsToSelector:@selector(requestAlwaysAuthorization)] && status== kCLAuthorizationStatusAuthorizedWhenInUse)
     {
        [self startLocation];
     }

@@ -101,8 +101,8 @@ typedef enum {Contact_Email=0,Contact_Phone=1,Contact_Facebook=2,Contact_LinkedI
 {
 	//Stupid LinkedIn will not open a company profile page in their app
 	return NO;
-	NSString *url = [NSString stringWithFormat:@"%@",[TLConnectHelper getSocialAppUrl:SocialFeed_LinkedIn]];
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+//    NSString *url = [NSString stringWithFormat:@"%@",[TLConnectHelper getSocialAppUrl:SocialFeed_LinkedIn]];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 -(BOOL)openFacebook
 {
