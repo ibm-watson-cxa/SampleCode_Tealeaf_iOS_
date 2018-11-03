@@ -466,7 +466,7 @@
 		AEFE9A09188063DA009D22B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = TeaLeaf;
 				TargetAttributes = {
 					AEFE9A10188063DA009D22B8 = {
