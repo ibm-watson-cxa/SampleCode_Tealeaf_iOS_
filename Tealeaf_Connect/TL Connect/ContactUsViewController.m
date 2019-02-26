@@ -52,12 +52,20 @@ typedef enum {Contact_Email=0,Contact_Phone=1,Contact_Facebook=2,Contact_LinkedI
 }
 -(void)showEmail
 {
-	MFMailComposeViewController *mail=[[MFMailComposeViewController alloc] init];
-	mail.mailComposeDelegate=self;
-	mail.title=@"Interested in Tealeaf";
-	[mail setToRecipients:@[[TLConnectHelper contactEmail]]];
-	
-	[self presentViewController:mail animated:YES completion:nil];
+    if( [MFMailComposeViewController canSendMail] )
+    {
+        MFMailComposeViewController *mail=[[MFMailComposeViewController alloc] init];
+        mail.mailComposeDelegate=self;
+        mail.title=@"Interested in Tealeaf";
+        [mail setToRecipients:@[[TLConnectHelper contactEmail]]];
+        [self presentViewController:mail animated:YES completion:nil];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email Not Setup" message:@"This device does not have any email account setup. Cannot send email" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+        
+    }
 }
 -(void)askToCall
 {
