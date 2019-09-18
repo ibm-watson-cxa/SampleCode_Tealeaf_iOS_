@@ -19,16 +19,16 @@
     
 //    setenv("EODebug", "1", 1);
 //    setenv("TLF_DEBUG", "1", 1);
-    [[TLFApplicationHelper sharedInstance] setCXAAdvertisingId:[[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]];
-	[[TLFApplicationHelper sharedInstance] enableTealeafFramework];
+//    [[TLFApplicationHelper sharedInstance] setCXAAdvertisingId:[[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]];
+//    [[TLFApplicationHelper sharedInstance] enableTealeafFramework];
     NSMutableDictionary *appData = [[NSMutableDictionary alloc] init];
     [appData setObject:[[NSBundle mainBundle] bundleIdentifier] forKey:@"Application"];
     [appData setObject:[[UIDevice currentDevice] model] forKey:@"Device"];
     [appData setObject:[[UIDevice currentDevice] name] forKey:@"Name"];
-	[[TLFCustomEvent sharedInstance] logEvent:@"ApplicationData" values:appData];
+//    [[TLFCustomEvent sharedInstance] logEvent:@"ApplicationData" values:appData];
     
-	NSString *sessionID=[[TLFApplicationHelper sharedInstance] currentSessionId];
-	NSLog(@"TLF Session Id: %@", sessionID);
+//    NSString *sessionID=[[TLFApplicationHelper sharedInstance] currentSessionId];
+//    NSLog(@"TLF Session Id: %@", sessionID);
 	NSLog(@"System Name:%@",[[UIDevice currentDevice] systemName]);
 	NSLog(@"System Version:%@",[[UIDevice currentDevice] systemVersion]);
 	NSLog(@"Vendor ID:%@",[[UIDevice currentDevice] identifierForVendor]);

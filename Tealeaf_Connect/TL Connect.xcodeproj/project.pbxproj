@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660556A81FD2100A0034103A /* EOCoreSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 660556A61FD2100A0034103A /* EOCoreSettings.bundle */; };
-		660556A91FD2100A0034103A /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 660556A71FD2100A0034103A /* TLFResources.bundle */; };
-		660556AC1FD210290034103A /* EOApplicationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 660556AB1FD210290034103A /* EOApplicationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660556B01FD211C00034103A /* libEOCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 660556A31FD20FE70034103A /* libEOCore.a */; };
-		660556B11FD211C30034103A /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660556AD1FD2104B0034103A /* Tealeaf.framework */; };
 		8401C23B1C9CA47400372D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401C23A1C9CA47400372D0B /* LaunchScreen.storyboard */; };
 		AE071F251892FDC90002B3A9 /* RequestSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE071F241892FDC90002B3A9 /* RequestSelectionViewController.m */; };
 		AE071F281895B1BC0002B3A9 /* ButtonFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE071F271895B1BC0002B3A9 /* ButtonFormCell.m */; };
@@ -74,11 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660556A31FD20FE70034103A /* libEOCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEOCore.a; sourceTree = "<group>"; };
-		660556A61FD2100A0034103A /* EOCoreSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EOCoreSettings.bundle; sourceTree = "<group>"; };
-		660556A71FD2100A0034103A /* TLFResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TLFResources.bundle; sourceTree = "<group>"; };
-		660556AB1FD210290034103A /* EOApplicationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOApplicationHelper.h; sourceTree = "<group>"; };
-		660556AD1FD2104B0034103A /* Tealeaf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tealeaf.framework; sourceTree = "<group>"; };
 		8401C23A1C9CA47400372D0B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE071F231892FDC90002B3A9 /* RequestSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSelectionViewController.h; sourceTree = "<group>"; };
 		AE071F241892FDC90002B3A9 /* RequestSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSelectionViewController.m; sourceTree = "<group>"; };
@@ -160,8 +150,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660556B01FD211C00034103A /* libEOCore.a in Frameworks */,
-				660556B11FD211C30034103A /* Tealeaf.framework in Frameworks */,
 				AE71B2971C9C96C6004C73F2 /* WebKit.framework in Frameworks */,
 				AE6B1D381889EC94009EA5E1 /* SystemConfiguration.framework in Frameworks */,
 				AE6B1D361889EC89009EA5E1 /* MediaPlayer.framework in Frameworks */,
@@ -189,18 +177,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		660556A11FD20F8B0034103A /* TealeafSDK */ = {
-			isa = PBXGroup;
-			children = (
-				660556A31FD20FE70034103A /* libEOCore.a */,
-				660556AD1FD2104B0034103A /* Tealeaf.framework */,
-				660556AB1FD210290034103A /* EOApplicationHelper.h */,
-				660556A61FD2100A0034103A /* EOCoreSettings.bundle */,
-				660556A71FD2100A0034103A /* TLFResources.bundle */,
-			);
-			path = TealeafSDK;
-			sourceTree = "<group>";
-		};
 		AE071F31189C5BA60002B3A9 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,7 +292,6 @@
 		AEFE9A08188063DA009D22B8 = {
 			isa = PBXGroup;
 			children = (
-				660556A11FD20F8B0034103A /* TealeafSDK */,
 				AEDFFC201885B1C000E87C41 /* Images.xcassets */,
 				AEFE9A1A188063DA009D22B8 /* TL Connect */,
 				AEFE9A33188063DA009D22B8 /* TL ConnectTests */,
@@ -417,7 +392,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660556AC1FD210290034103A /* EOApplicationHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +461,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = AEFE9A08188063DA009D22B8;
@@ -505,8 +480,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660556A81FD2100A0034103A /* EOCoreSettings.bundle in Resources */,
-				660556A91FD2100A0034103A /* TLFResources.bundle in Resources */,
 				AE3206771889FFA200D2537E /* CX.txt in Resources */,
 				AE32067A1889FFA200D2537E /* cxReveal.txt in Resources */,
 				AEDFFC211885B1C000E87C41 /* Images.xcassets in Resources */,

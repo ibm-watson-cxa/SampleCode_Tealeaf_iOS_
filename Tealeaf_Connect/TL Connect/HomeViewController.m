@@ -36,8 +36,8 @@
 	//[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"TL_Header_Full"] forBarMetrics:UIBarMetricsDefault];
 	[self populateTableData];
 	NSString *bundleVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
-	self.txtBottom.text=[NSString stringWithFormat:@"Version: %@ Framework: %@",bundleVersion,[[TLFApplicationHelper sharedInstance] frameworkVersion]] ;
-	self.txtSession.text=[NSString stringWithFormat:@"%@",[[TLFApplicationHelper sharedInstance] currentSessionId]] ;
+	//self.txtBottom.text=[NSString stringWithFormat:@"Version: %@ Framework: %@",bundleVersion,[[TLFApplicationHelper sharedInstance] frameworkVersion]] ;
+	//self.txtSession.text=[NSString stringWithFormat:@"%@",[[TLFApplicationHelper sharedInstance] currentSessionId]] ;
 
 	// Do any additional setup after loading the view.
 }

@@ -73,7 +73,7 @@
 #pragma mark - UITableViewDelegate
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	[[TLFCustomEvent sharedInstance] logScreenLayoutWithViewController:self];
+	//[[TLFCustomEvent sharedInstance] logScreenLayoutWithViewController:self];
 	return indexPath;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
