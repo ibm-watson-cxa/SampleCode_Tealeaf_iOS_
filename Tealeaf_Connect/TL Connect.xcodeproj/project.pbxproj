@@ -56,6 +56,7 @@
 		AEFE9A38188063DA009D22B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEFE9A36188063DA009D22B8 /* InfoPlist.strings */; };
 		AEFE9A3A188063DA009D22B8 /* TL_ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE9A39188063DA009D22B8 /* TL_ConnectTests.m */; };
 		AEFE9A451880649B009D22B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE9A441880649B009D22B8 /* Main.storyboard */; };
+		FCD3BE683A5AE74E9D2A60BC /* Pods_TL_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F92F0DAA7F537EF576973F /* Pods_TL_Connect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08F92F0DAA7F537EF576973F /* Pods_TL_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TL_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		110AE220D639C21F68C772C6 /* Pods-TL_Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TL_Connect.release.xcconfig"; path = "Target Support Files/Pods-TL_Connect/Pods-TL_Connect.release.xcconfig"; sourceTree = "<group>"; };
+		72CF7610CAAC9E35986C1EA9 /* Pods-TL_Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TL_Connect.debug.xcconfig"; path = "Target Support Files/Pods-TL_Connect/Pods-TL_Connect.debug.xcconfig"; sourceTree = "<group>"; };
 		8401C23A1C9CA47400372D0B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE071F231892FDC90002B3A9 /* RequestSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSelectionViewController.h; sourceTree = "<group>"; };
 		AE071F241892FDC90002B3A9 /* RequestSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSelectionViewController.m; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 				AEFE9A17188063DA009D22B8 /* CoreGraphics.framework in Frameworks */,
 				AEFE9A19188063DA009D22B8 /* UIKit.framework in Frameworks */,
 				AEFE9A15188063DA009D22B8 /* Foundation.framework in Frameworks */,
+				FCD3BE683A5AE74E9D2A60BC /* Pods_TL_Connect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +302,7 @@
 				AEFE9A33188063DA009D22B8 /* TL ConnectTests */,
 				AEFE9A13188063DA009D22B8 /* Frameworks */,
 				AEFE9A12188063DA009D22B8 /* Products */,
+				D6F08811DBCC825AE8CF9A81 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -324,6 +330,7 @@
 				AEFE9A16188063DA009D22B8 /* CoreGraphics.framework */,
 				AEFE9A18188063DA009D22B8 /* UIKit.framework */,
 				AEFE9A2D188063DA009D22B8 /* XCTest.framework */,
+				08F92F0DAA7F537EF576973F /* Pods_TL_Connect.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -385,6 +392,16 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
+		D6F08811DBCC825AE8CF9A81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72CF7610CAAC9E35986C1EA9 /* Pods-TL_Connect.debug.xcconfig */,
+				110AE220D639C21F68C772C6 /* Pods-TL_Connect.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -402,10 +419,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFE9A3D188063DA009D22B8 /* Build configuration list for PBXNativeTarget "TL_Connect" */;
 			buildPhases = (
+				F034137BBD561A7D77F3B1DE /* [CP] Check Pods Manifest.lock */,
 				AEFE9A0F188063DA009D22B8 /* Resources */,
 				AEFE9A0D188063DA009D22B8 /* Sources */,
 				AEFE9A0E188063DA009D22B8 /* Frameworks */,
 				660556AA1FD210180034103A /* Headers */,
+				53D087FD7998EDBFB4D85417 /* [CP] Embed Pods Frameworks */,
+				6BCE976F3535D923E33680AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -502,6 +522,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53D087FD7998EDBFB4D85417 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TL_Connect/Pods-TL_Connect-frameworks.sh",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EOCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tealeaf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TL_Connect/Pods-TL_Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCE976F3535D923E33680AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TL_Connect/Pods-TL_Connect-resources.sh",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EOCoreSettings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TLFResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TL_Connect/Pods-TL_Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F034137BBD561A7D77F3B1DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TL_Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEFE9A0D188063DA009D22B8 /* Sources */ = {
@@ -670,6 +763,7 @@
 		};
 		AEFE9A3E188063DA009D22B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CF7610CAAC9E35986C1EA9 /* Pods-TL_Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -702,6 +796,7 @@
 		};
 		AEFE9A3F188063DA009D22B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110AE220D639C21F68C772C6 /* Pods-TL_Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
