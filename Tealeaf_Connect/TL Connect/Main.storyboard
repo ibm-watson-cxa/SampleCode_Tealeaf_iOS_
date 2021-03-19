@@ -356,7 +356,7 @@ Tealeaf CX allows companies to see —and act on—every interaction across all 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="102" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8b-8h-d5d">
                                 <rect key="frame" x="20" y="157" width="335" height="410"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">IBM® Tealeaf® CX Mobile helps customers apply the power of Tealeaf’s powerful customer experience management solutions to their mobile websites, native applications, and hybrid applications, including support for HTML5.</string>
+                                <string key="text">Tealeaf® CX Mobile helps customers apply the power of Tealeaf’s powerful customer experience management solutions to their mobile websites, native applications, and hybrid applications, including support for HTML5.</string>
                                 <color key="textColor" red="0.2838824987411499" green="0.36376380920410156" blue="0.40651258826255798" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
