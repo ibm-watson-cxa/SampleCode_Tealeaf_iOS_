@@ -786,7 +786,7 @@
 					"-ObjC",
 					"$(FRANK_LDFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TL_Connect;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -815,7 +815,7 @@
 					"$(PROJECT_DIR)/TealeafSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TL_Connect;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -840,7 +840,7 @@
 				);
 				INFOPLIST_FILE = "TL ConnectTests/TL ConnectTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TL_Connect.app/TL_Connect";
 				WRAPPER_EXTENSION = xctest;
@@ -860,7 +860,7 @@
 				GCC_PREFIX_HEADER = "TL Connect/TL Connect-Prefix.pch";
 				INFOPLIST_FILE = "TL ConnectTests/TL ConnectTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.tealeaf.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TL_Connect.app/TL_Connect";
 				WRAPPER_EXTENSION = xctest;
